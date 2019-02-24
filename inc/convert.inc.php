@@ -1,4 +1,4 @@
-<?php // Filename: function.inc.php
+<?php
 function convertTemp($temp,$unit1,$unit2){
 	switch ($unit1) {
 		case 'celsius':
