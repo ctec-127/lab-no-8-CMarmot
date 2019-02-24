@@ -39,10 +39,18 @@ body {
     font-size:3em;
     font-weight: bolder;
 }
+h4 {
+  margin-left:25px;
+  color:rgba(90, 13, 233,.5);
+  font-weight: bolder;
+}
 
+.home {
+  margin-left:25px;
+}
 
 .homedescription {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     background-image: radial-gradient(circle, rgb(0, 174, 255), rgb(105, 236, 225), rgb(112, 163, 221));
     background-color: rgb(165, 231, 200);
@@ -52,8 +60,34 @@ body {
     padding-top:20px;
     margin-left:25px;
     margin-right:25px;
-  
+    margin-bottom:20px;
+    padding-bottom:20px;
+    padding-right:25px;
+
   }
-/* th a:link, th a:visited, th a:hover, th a:active { */
-    /* color: #ffffff; */
+
+
+  .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(42, 241, 24, .5);
+    border-radius: .3rem;
 }
+
+.description p{
+
+  text-align:center;
+}
+
+  .form-control {
+  
+    width: 15%;
+    display:inline-block;
+
+}
+
+
+
+
+
+

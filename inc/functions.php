@@ -1,3 +1,4 @@
+<?php // Filename: function.inc.php
 function convertTemp($temp,$unit1,$unit2){
 	switch ($unit1) {
 		case 'celsius':
@@ -41,3 +42,4 @@ function convertTemp($temp,$unit1,$unit2){
 	} // end switch
 
 } // end function
+?>
