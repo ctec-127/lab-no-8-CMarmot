@@ -1,12 +1,59 @@
 /* style.css */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
-    background: #fafafa;
+    padding: 100px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: radial-gradient(circle, rgba(34, 238, 187, 0.5), rgba(105, 236, 225.5), rgba(74, 113, 243, 0.5));
+  }
+  
+  .home {
+    background-image: radial-gradient(circle, rgba(38, 236, 220, 0.5), rgba(105, 236, 225.5), rgba(114, 148, 240, 0.938)70%);
+  
+  }
+
+.blue {
+    background-color: rgba(90,13,233,.4) !important;
+  
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(253, 253, 253, 0.8);
+    padding:.5em;
+  }
+  .navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show.nav-link {
+    color: rgb(253, 253, 253);
+  }
+  
+  .navbar-light .navbar-nav .nav-link.disabled {
+    color: rgba(253, 253, 253,.5);
+  }
+  
+  .navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(253, 253, 253,.9);
+  }
+  
+  h1 {
+    margin-left:25px;
+    color:rgba(90, 13, 233,.5);
+    font-size:3em;
+    font-weight: bolder;
 }
 
-th a:link, th a:visited, th a:hover, th a:active {
-    color: #ffffff;
+
+.homedescription {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle, rgb(0, 174, 255), rgb(105, 236, 225), rgb(112, 163, 221));
+    background-color: rgb(165, 231, 200);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+  
+  }
+/* th a:link, th a:visited, th a:hover, th a:active { */
+    /* color: #ffffff; */
 }
